@@ -192,8 +192,8 @@ ul.footer-social-buttons li {
 .soc-btn .gh-ico {
     background: none repeat scroll 0 0 #0000FF;
     display: block;
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
 }
 
 .soc-btn .gh-ico.linkedin {
@@ -211,6 +211,57 @@ ul.footer-social-buttons li {
 .soc-btn .gh-ico.blogger {
     background: url("../img/blogger.png") no-repeat scroll 0 0 transparent;
 }
-.soc-btn .gh-ico.Kickstarter {
-    background: url("../img/Kickstarter.png") no-repeat scroll 0 0 transparent;
+.soc-btn .gh-ico.kickstarter {
+    background: url("../img/kickstarter.png") no-repeat scroll 0 0 transparent;
+}
+
+.row .item-wrapper .item-center {
+    display: table;
+    margin: 0 auto;
+}
+
+.list-inline.soc-list {
+    display: table;
+    margin: 5px 0 0;
+}
+
+.item-vs {
+    background: none repeat scroll 0 0 #F26321;
+    border-radius: 40px;
+    display: block;
+    height: 70px;
+    left: -43px;
+    position: absolute;
+    top: 100px;
+    width: 70px;
+    z-index: 4;
+}
+.item-vs > span {
+    color: #FFFFFF;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 30px;
+    left: 18px;
+    position: absolute;
+    top: 12px;
+}
+
+
+@media (max-width: 767px) {
+.row.img-candidato img {
+    width: 124px;
+}
+.list-inline.soc-list li {
+    float: left;
+    padding: 0 4px 0 0;
+}
+}
+/*xxs*/
+@media (max-width: 380px) {
+.row.img-candidato img {
+    width: 124px;
+}
+.list-inline.soc-list li {
+    float: left;
+    padding: 0 2px 0 0;
+}
 }
