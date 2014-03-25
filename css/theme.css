@@ -32,7 +32,10 @@ h3, .h3 {
 
 }
 .versus-wrap{
-  box-shadow: 1px 1.732px 4px 0px rgb( 48, 48, 48 );
+  box-shadow: 1px -0.268px 4px 0px rgb( 48, 48, 48 );
+}
+.versus-layout .section-2{
+  padding-bottom: 20px;
 }
 /*Banner*/
 .banner {
@@ -48,7 +51,7 @@ h3, .h3 {
 	color:#ffffff;
 }
 .section-1
-{margin-bottom: 20px}
+{margin-bottom: 30px}
 .section-header h2 {
     letter-spacing: -2px;
 }
@@ -178,13 +181,30 @@ h3, .h3 {
 }
 
 .divider{
-	  box-shadow: 1px 1.732px 4px 0px rgb( 48, 48, 48 );
+	 /* box-shadow: 1px 1.732px 4px 0px rgb( 48, 48, 48 );*/
 	    display: block;
     height: 10px;
     width: 100%;
+    position: relative;
+    margin-top: 20px;
 }
+.divider2, .divider3 {
+    border-bottom: 2px solid #424A56;
+    color: #424A56;
+    height: 9px;
+    text-align: center;
+    margin-bottom: 20px;
+} 
 
+.divider3 {
+    border-bottom: 1px solid #424A56;
 
+}
+.col-center .btn,
+.col-center > *
+{
+  margin: 0 auto;
+}
 ul.footer-social-buttons li {
     font-size: 20px;
     list-style: none outside none;
@@ -261,6 +281,19 @@ ul.footer-social-buttons li {
     top: 12px;
 }
 
+.triangle-down{
+    background: url("../img/item-caret-down.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: -28px;
+    color: #FF0000;
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    left: 50%;
+    margin-left: 35px;
+    position: absolute;
+    width: 70px;
+
+}
 
 /*pag-02*/
 .campos {
@@ -329,6 +362,10 @@ font-weight: bold;}
 .list-inline.soc-list li {
     float: left;
     padding: 0 4px 0 0;
+}
+.triangle-down{
+  margin-left: -40px;
+
 }
 }
 /*xxs*/
