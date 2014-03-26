@@ -123,12 +123,13 @@ h3, .h3 {
     width: 100%;
 }
 .item-fixed{
-min-height: 140px;}
+}
 .row .item-1{
 	border-left:1px solid #F26321;
+    background: url("../img/ico-border-left.png") repeat-y scroll 368px 0 transparent;
 }
 .row .item-1 .item-wrapper{
-	border-right:1px solid #F26321;
+	/*border-right:1px solid #F26321;*/
 	padding-right: 15px;
 }
 .row .item-2{
@@ -415,7 +416,8 @@ font-weight: bold;}
     border: 1px solid #F26321;
     padding: 10px;
 }
-.thumbnail:hover, .halfcircle-bottom:hover {
+.thumbnail:hover, 
+.thumbnail:hover .halfcircle-bottom {
     background: none repeat scroll 0 0 #EDEDED;
     /*border: 1px solid #ccc;*/
 }
