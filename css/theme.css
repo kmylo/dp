@@ -126,7 +126,8 @@ h3, .h3 {
 }
 .row .item-1{
 	border-left:1px solid #F26321;
-    background: url("../img/ico-border-left.png") repeat-y scroll 368px 0 transparent;
+    background: url("../img/ico-border-left.png") repeat-y scroll right 0 transparent;
+    border-right: 15px solid transparent;
 }
 .row .item-1 .item-wrapper{
 	/*border-right:1px solid #F26321;*/
@@ -202,7 +203,7 @@ h3, .h3 {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     background-color: #E25311;
-    border-color: #285E8E;
+    border-color: #D24301;
     color: #FFFFFF;
 }
 .btn-lg, .btn-group-lg > .btn{ 
