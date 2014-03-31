@@ -279,7 +279,8 @@ h3, .h3 {
 .divider2, .divider3 {
     border-bottom: 2px solid #424A56;
     color: #424A56;
-    height: 9px;
+    height: 10px;
+    line-height: 20px;
     text-align: center;
     margin-bottom: 20px;
 } 
@@ -448,6 +449,23 @@ font-weight: bold;}
     margin-top: 0;
     position: absolute;
 }
+/**/
+.triangle-down .panel-tab2 .panel-title2 {
+    position: absolute;
+    top:2px;
+    left: 28px;
+    font-size: 13px;
+}
+.triangle-down .panel-tab2 .panel-title2 {
+  
+    color: #333333;
+}
+.triangle-down .panel-tab2 .panel-title2:hover {
+  
+    color: #535353;
+    color: #E25311;
+}
+a .triangle-down{ cursor: pointer;}
 
 @media (max-width: 767px) {
 .row.img-candidato img {
@@ -473,5 +491,12 @@ font-weight: bold;}
 .list-inline.soc-list li {
     float: left;
     padding: 0 2px 0 0;
+}
+.adt-brand img {
+    height: 60px;
+}
+.banner
+{
+  height: 80px;
 }
 }
