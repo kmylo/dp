@@ -465,7 +465,7 @@ font-weight: bold;}
     color: #535353;
     color: #E25311;
 }
-a .triangle-down{ cursor: pointer;}
+a .triangle-down, .dos a{ cursor: pointer;}
 
 @media (max-width: 767px) {
 .row.img-candidato img {
